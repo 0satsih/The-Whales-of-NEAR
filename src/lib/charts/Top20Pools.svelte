@@ -4,18 +4,17 @@
 	import Chart from 'chart.js/auto';
 	import ChartDataLabels from 'chartjs-plugin-datalabels';
 
-	Tooltip.positioners.myCustomPositioner = function (elements: any, eventPosition: any) {
+	/**Tooltip.positioners.myCustomPositioner = function (elements: any, eventPosition: any) {
 		// A reference to the tooltip model
 		const tooltip = this;
 
-		/* ... */
 
 		return {
 			x: 287,
 			y: 185
 			// You may also include xAlign and yAlign to override those tooltip options.
 		};
-	};
+	};**/
 
 	export let chart_data: any;
 
@@ -80,7 +79,7 @@
 						titleMarginBottom: 6,
 						xAlign: 'center',
 						yAlign: 'center',
-						position: 'myCustomPositioner',
+						//position: 'myCustomPositioner',
 						callbacks: {
 							label: function (context) {
 								let value: any = context.formattedValue;
