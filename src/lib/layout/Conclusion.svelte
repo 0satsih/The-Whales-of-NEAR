@@ -17,7 +17,6 @@
 		officia deserunt mollit anim id est laborum.
 	</p>
 </div>
-<div class="shadow" />
 
 <style>
 	.shadow {
