@@ -16,7 +16,7 @@
 	import Top20Pools from '$lib/charts/Top20Pools.svelte';
 	import ChartLanguage from '$lib/charts/language/ChartLanguage.svelte';
 
-	export let data: PageData;
+	//export let data: PageData;
 
 </script>
 
