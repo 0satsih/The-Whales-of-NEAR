@@ -37,7 +37,7 @@
 						description={'Top 20 addresses in terms of NEAR held'}
 					>
 						<div class="h-96" slot="figure">
-							<Top20 chart_data={data.item.TOP_20} />
+							<Top20 chart_data={data.TOP_20} />
 						</div>
 					</Chart>
 				</div>
@@ -48,7 +48,7 @@
 						description={'Top 20 addresses in terms of NEAR held, measured in $USD'}
 					>
 						<div class="h-96" slot="figure">
-							<Top20USD chart_data={data.item.TOP_20} />
+							<Top20USD chart_data={data.TOP_20} />
 						</div>
 					</Chart>
 				</div>
@@ -68,7 +68,7 @@
 						description={''}
 					>
 						<div class="h-96" slot="figure">
-							<Top20Distribution chart_data={data.item.TOP_20} />
+							<Top20Distribution chart_data={data.TOP_20} />
 						</div>
 					</Chart>
 				</div>
@@ -79,7 +79,7 @@
 						description={'History of current NEAR whales'}
 					>
 						<div class="h-96" slot="figure">
-							<Top20History chart_data={data.item.HISTORY} />
+							<Top20History chart_data={data.HISTORY} />
 						</div>
 					</Chart>
 				</div>
@@ -100,7 +100,7 @@
 						description={'Number of actions taken by whales'}
 					>
 						<div class="h-96" slot="figure">
-							<Top20Actions chart_data={data.item.ACTIONS} />
+							<Top20Actions chart_data={data.ACTIONS} />
 						</div>
 					</Chart>
 				</div>
@@ -111,7 +111,7 @@
 						description={'Number of swaps conducted by whales'}
 					>
 						<div class="h-96" slot="figure">
-							<Top20Swaps chart_data={data.item.SWAPS} />
+							<Top20Swaps chart_data={data.SWAPS} />
 						</div>
 					</Chart>
 				</div>
@@ -135,7 +135,7 @@
 						description={'Which whales have staked, and how much'}
 					>
 						<div class="h-96" slot="figure">
-							<Top20Staked chart_data={data.item.STAKED} />
+							<Top20Staked chart_data={data.STAKED} />
 						</div>
 					</Chart>
 				</div>
@@ -146,7 +146,7 @@
 						description={'Which staking pools whales have chosen to delegate to'}
 					>
 						<div class="h-96" slot="figure">
-							<Top20Pools chart_data={data.item.POOLS} />
+							<Top20Pools chart_data={data.POOLS} />
 						</div>
 					</Chart>
 				</div>
